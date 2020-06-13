@@ -4,7 +4,7 @@ var apiKey = "&api_key=afvahcy3rpqnc76atjxg4kjk";
 var queryValue;
 //add function to grab campground api here...
 
-var queryURL = "https://api.amp.active.com/camping/campgrounds/?pstate=" 
+var queryURL = "http://api.amp.active.com/camping/campgrounds/?pstate=" 
 
 //add function to grab weather data here....
 function getCampgroundData (area) {
