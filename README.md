@@ -19,7 +19,7 @@ As a user, I want an application to be able to search for existing campgrounds. 
 
 MOTIVATION FOR DEVELOPMENT:
 
-Big into camping and tired of having to google search campgrounds and getting results that don't pertain to my search.  Also wanted all results to show weather which doesn't always happen when searching through other search engines.
+AS a camping enthusiast, I'm tired of having to google search campgrounds and getting results that don't pertain to my search.  I wanted all results to show weather, which doesn't always happen when searching through other search engines.
 
 PROCESS:
 
@@ -38,17 +38,17 @@ We programmed the JS to fire upon a change in the dropdown so that the user does
 
 Upon selection of a state or province, cards are generated that show the results of campgrounds in the selected area.  The name of the campground is displayed as well as an image of the campground (if available throught the api).  Current weather is then displayed through another api call.  
 
-<img src="/assets/images/Screenshot%20(37).png" />
+<img src="/assets/images/Screenshot%20().png" />
 
 Local storage is then used to store the last search so if the screen is refreshed the last search is not lost.
 
-<img src="/assets/images/Screenshot%20(37).png" />
+<img src="/assets/images/Screenshot%20().png" />
   
-**The two api's that were used for this project can be found at:
-
-  https://developer.active.com/docs/read/Campground_APIs
-
-  https://openweathermap.org/guide
+The two api's that were used for this project can be found at:
+<ul>
+<li>https://developer.active.com/docs/read/Campground_APIs</li>
+<li>https://openweathermap.org/guide</li>
+</ul>
 
 Link to deployed application:
 
